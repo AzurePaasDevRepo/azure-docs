@@ -45,6 +45,14 @@ To view the utilization and availability of your storage accounts across all of 
 
     ![Multiple storage accounts view](./media/storage-insights-overview/multiple-storage-accounts-view-01.png)
 
+
+Azure Storage logs in Azure Monitor is in public preview and is available for preview testing in all public cloud regions. To enroll in the preview, see the below page:
+
+https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxW65f1VQyNCuBHMIMBV8qlUM0E0MFdPRFpOVTRYVklDSE1WUTcyTVAwOC4u
+
+This preview enables logs for blobs (which includes Azure Data Lake Storage Gen2), files, queues,and tables. This feature is available for all storage accounts that are created with the Azure Resource Manager deployment model. 
+
+
 ### Overview workbook
 
 On the **Overview** workbook for the selected subscription, the table displays interactive storage metrics and service availability state for up to 5 storage accounts grouped within the subscription. You can filter the results based on the options you select from the following drop-down lists:
